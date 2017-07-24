@@ -3,9 +3,9 @@
 
 Docker image with bugzilla, based on alpine image, excluding the mysql database and apache
 
-The original [dklawren/docker-bugzilla](https://github.com/dklawren/docker-bugzilla) image is around 1 GB
-
-It includes apache and mysql
+The original [dklawren/docker-bugzilla](https://github.com/dklawren/docker-bugzilla) image
+is around [1 GB](https://hub.docker.com/r/dklawren/docker-bugzilla/tags/)
+because it includes apache and mysql
 
 This docker image is an effort to create a small-footprint docker image for bugzilla that can connect to an existing mysql database
 
